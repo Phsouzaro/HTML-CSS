@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato Pedro</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/navigation.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/contato.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img  class="logo" src="img/logo.png"></h1>
+                <nav>
+                  <ul>
+                    <li><a href="C:\Users\Pedro\Downloads\HTML e CSS\HTML e CSS 1\index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                  </ul>
+                </nav>
+              </div>
+        </header>
+
+        <main>
+            <form class="formulario">
+                <label for="nomesobrenome">Nome e Sobrenome:</label>
+                <input type="text" name="nomesobrenome" id="nomesobrenome" placeholder="Ex: Joao da Nica">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="telefone" id="telefone" placeholder="Ex: (xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="72" rows="8"></textarea>
+                <div>
+                    <p>Como prefere o nosso contato? </p>
+                    <label for="radio-email">Email</label>
+                    <input type="radio" value="Email" name="contato" id="radio-email">
+
+                    <label for="radio-ligacao">Ligação</label>
+                    <input type="radio" value="telefone" name="contato" id="radio-ligacao">
+
+                    <label for="radio-whatsapp">Whatsapp</label>
+                    <input type="radio" value="telefone" name="contato" id="radio-whatsapp">
+                
+
+                    <input type="submit" name="enviar" value="Enviar Formulario">
+                </div>
+
+                <label ><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            </form>
+        </main>
+
+        <footer>
+            <img src="img/logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Pedro 2019</p>
+        </footer>
+    </body>
+</html>
